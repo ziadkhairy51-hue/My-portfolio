@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ziad.Khairy — AI Engineer & Software Developer</title>
-<meta name="description" content="Ziad Mohamed Khairy — AI Engineer & Software Developer. Machine learning, full-stack development, and intelligent systems.">
+<title>Ziad.Khairy — AI Engineer & Machine Learning Specialist</title>
+<meta name="description" content="Ziad Mohamed Khairy — AI Engineer & Machine Learning Specialist. Machine learning, deep learning, and intelligent systems.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -55,7 +55,7 @@ section{padding:120px 0; position:relative;}
 .section-title{font-size:clamp(28px,4vw,40px); font-weight:700; color:var(--text);}
 .section-sub{color:var(--slate); max-width:560px; margin:14px auto 0; font-size:16px;}
 .glow-text{background:var(--grad); -webkit-background-clip:text; background-clip:text; color:transparent;}
-
+ 
 /* buttons */
 .btn{
   display:inline-flex; align-items:center; justify-content:center; gap:8px;
@@ -74,7 +74,7 @@ section{padding:120px 0; position:relative;}
 }
 .ripple{position:absolute; border-radius:50%; background:rgba(255,255,255,0.45); transform:scale(0); animation:rippleAnim .6s ease-out; pointer-events:none;}
 @keyframes rippleAnim{ to{ transform:scale(3); opacity:0; } }
-
+ 
 .glass{background:var(--glass); border:1px solid var(--glass-border); backdrop-filter:blur(16px); border-radius:var(--radius);}
 .glow-card{
   position:relative; background:var(--surface); border:1px solid var(--line); border-radius:var(--radius);
@@ -88,14 +88,14 @@ section{padding:120px 0; position:relative;}
 }
 .glow-card:hover{transform:translateY(-6px);}
 .glow-card:hover::before{opacity:1;}
-
+ 
 /* ---------- global click burst ---------- */
 .click-fx-layer{position:fixed; left:0; top:0; width:0; height:0; z-index:9999; pointer-events:none;}
 .click-ring{position:absolute; width:14px; height:14px; margin-left:-7px; margin-top:-7px; border:2px solid var(--cyan); border-radius:50%; box-shadow:0 0 14px 2px var(--glow); animation:ringExpand .6s ease-out forwards;}
 @keyframes ringExpand{ to{ width:64px; height:64px; margin-left:-32px; margin-top:-32px; opacity:0; } }
 .click-particle{position:absolute; width:5px; height:5px; margin-left:-2.5px; margin-top:-2.5px; border-radius:50%; background:var(--cyan); box-shadow:0 0 6px 1px var(--glow); animation:particleBurst .55s ease-out forwards;}
 @keyframes particleBurst{ to{ transform:translate(var(--dx), var(--dy)); opacity:0; } }
-
+ 
 /* ---------- Nav ---------- */
 header{position:fixed; top:0; left:0; right:0; z-index:200; background:rgba(10,15,28,0.65); backdrop-filter:blur(18px); border-bottom:1px solid var(--glass-border);}
 nav{max-width:var(--maxw); margin:0 auto; padding:16px 32px; display:flex; align-items:center; justify-content:space-between; gap:20px;}
@@ -108,7 +108,7 @@ nav{max-width:var(--maxw); margin:0 auto; padding:16px 32px; display:flex; align
 .nav-links a:hover::after{width:100%;}
 .nav-toggle{display:none; background:none; border:none; cursor:pointer;}
 .nav-toggle span{display:block; width:22px; height:2px; background:var(--text); margin:5px 0; transition:.25s;}
-
+ 
 /* ---------- Hero ---------- */
 .hero{padding:170px 0 100px; min-height:92vh; display:flex; align-items:center;}
 .hero-grid{display:grid; grid-template-columns:1.1fr 0.9fr; gap:60px; align-items:center;}
@@ -118,7 +118,7 @@ nav{max-width:var(--maxw); margin:0 auto; padding:16px 32px; display:flex; align
 .hero-name{font-size:clamp(22px,2.8vw,28px); font-weight:600; margin-top:24px; color:var(--text);}
 .hero-title{font-family:'JetBrains Mono',monospace; font-size:14px; color:var(--cyan); margin-top:10px;}
 .hero-actions{margin-top:34px; display:flex; gap:16px; flex-wrap:wrap;}
-
+ 
 .avatar-stage{position:relative; width:340px; height:340px; margin:0 auto;}
 .avatar-halo{position:absolute; inset:-18px; border-radius:50%; background:var(--grad); filter:blur(30px); opacity:.55; animation:halo 3.4s ease-in-out infinite;}
 @keyframes halo{0%,100%{opacity:.4; transform:scale(.98);} 50%{opacity:.8; transform:scale(1.06);}}
@@ -137,7 +137,7 @@ nav{max-width:var(--maxw); margin:0 auto; padding:16px 32px; display:flex; align
 .o3{bottom:-8px; right:44px; animation-delay:2.1s;}
 .o4{top:64px; left:-26px; animation-delay:.6s;}
 @keyframes float{0%,100%{transform:translateY(0);} 50%{transform:translateY(-10px);}}
-
+ 
 /* ---------- About ---------- */
 .about-grid{display:grid; grid-template-columns:1.15fr 0.85fr; gap:56px; align-items:start;}
 .about-bio p{font-size:17px; color:var(--slate); max-width:62ch;}
@@ -150,7 +150,7 @@ nav{max-width:var(--maxw); margin:0 auto; padding:16px 32px; display:flex; align
 .profile-row:last-child{border-bottom:none;}
 .profile-label{color:var(--slate-dim); font-family:'JetBrains Mono',monospace; font-size:12.5px; flex-shrink:0;}
 .profile-value{color:var(--text); text-align:right;}
-
+ 
 /* ---------- Skills ---------- */
 .filter-bar{display:flex; gap:10px; flex-wrap:wrap; justify-content:center; margin-bottom:44px;}
 .filter-btn{
@@ -172,7 +172,7 @@ nav{max-width:var(--maxw); margin:0 auto; padding:16px 32px; display:flex; align
 .skill-card:hover{transform:translateY(-4px);}
 .skill-card:hover::after{opacity:1;}
 .skill-card span{font-size:14.5px; font-weight:600; color:var(--text);}
-
+ 
 /* ---------- Services / Why Me ---------- */
 .cards-3{display:grid; grid-template-columns:repeat(3,1fr); gap:26px;}
 .info-card{padding:38px 30px;}
@@ -180,7 +180,7 @@ nav{max-width:var(--maxw); margin:0 auto; padding:16px 32px; display:flex; align
 .info-icon svg{width:26px; height:26px;}
 .info-card h3{font-size:19px; font-weight:600; margin-bottom:12px;}
 .info-card p{color:var(--slate); font-size:14.5px; margin:0;}
-
+ 
 /* ---------- Projects (pipeline) ---------- */
 .projects-list{display:flex; flex-direction:column; gap:26px;}
 .project-card{padding:34px;}
@@ -193,7 +193,7 @@ nav{max-width:var(--maxw); margin:0 auto; padding:16px 32px; display:flex; align
 .pipe-label{font-size:12px; color:var(--slate); max-width:120px;}
 .pipe-line{flex:1; height:1px; min-width:24px; background:linear-gradient(90deg, var(--line), var(--cyan), var(--line)); background-size:200% 100%; animation:pipeflow 3s linear infinite; margin:0 4px 26px;}
 @keyframes pipeflow{to{background-position:-200% 0;}}
-
+ 
 /* ---------- Feedback ---------- */
 .feedback-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:24px; margin-bottom:40px;}
 .feedback-card{padding:32px 26px; text-align:center; display:flex; flex-direction:column; align-items:center; gap:16px;}
@@ -201,7 +201,7 @@ nav{max-width:var(--maxw); margin:0 auto; padding:16px 32px; display:flex; align
 .feedback-status{display:inline-flex; align-items:center; gap:8px; font-family:'JetBrains Mono',monospace; font-size:12.5px; color:var(--slate);}
 .feedback-status .dot{width:7px; height:7px; border-radius:50%; background:var(--cyan); box-shadow:0 0 0 4px var(--glow); animation:blink 2s ease-in-out infinite;}
 .feedback-cta{text-align:center;}
-
+ 
 /* ---------- Contact ---------- */
 .contact-grid{display:grid; grid-template-columns:0.85fr 1.15fr; gap:48px; align-items:start;}
 .contact-heading{font-size:clamp(30px,4.4vw,44px); font-weight:700; margin-bottom:16px;}
@@ -213,7 +213,7 @@ nav{max-width:var(--maxw); margin:0 auto; padding:16px 32px; display:flex; align
 .contact-link-icon svg{width:20px; height:20px;}
 .contact-link-label{font-size:12px; color:var(--slate-dim); font-family:'JetBrains Mono',monospace;}
 .contact-link-value{font-size:15px; color:var(--text); font-weight:500; word-break:break-word;}
-
+ 
 .contact-form{padding:36px;}
 .form-row{margin-bottom:20px;}
 .form-row label{display:block; font-size:13px; color:var(--slate); margin-bottom:8px; font-family:'JetBrains Mono',monospace;}
@@ -223,11 +223,11 @@ nav{max-width:var(--maxw); margin:0 auto; padding:16px 32px; display:flex; align
 .form-submit{width:100%; margin-top:6px;}
 .form-note{margin-top:14px; font-size:13.5px; color:var(--cyan); display:none; text-align:center;}
 .form-note.show{display:block;}
-
+ 
 footer{padding:32px 0; text-align:center; color:var(--slate-dim); font-size:13.5px; border-top:1px solid var(--glass-border);}
 .reveal{opacity:0; transform:translateY(20px); transition:opacity .7s ease, transform .7s ease;}
 .reveal.in{opacity:1; transform:none;}
-
+ 
 @media (max-width:980px){
   .hero-grid{grid-template-columns:1fr; text-align:center;}
   .hero-actions{justify-content:center;}
@@ -258,10 +258,10 @@ footer{padding:32px 0; text-align:center; color:var(--slate-dim); font-size:13.5
 </style>
 </head>
 <body>
-
+ 
 <canvas id="neuralBg" aria-hidden="true"></canvas>
 <div class="click-fx-layer" id="clickFxLayer"></div>
-
+ 
 <header>
   <nav>
     <a href="#home" class="logo"><span class="cydot"></span>Ziad.Khairy</a>
@@ -279,16 +279,16 @@ footer{padding:32px 0; text-align:center; color:var(--slate-dim); font-size:13.5
     <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
   </nav>
 </header>
-
+ 
 <main>
-
+ 
   <!-- HERO -->
   <section id="home" class="hero">
     <div class="wrap hero-grid">
       <div>
         <h1 class="hero-tagline"><span id="typeTarget"></span><span class="type-cursor"></span></h1>
         <p class="hero-name">Ziad Mohamed Khairy</p>
-        <p class="hero-title mono">AI Engineer &amp; Software Developer</p>
+        <p class="hero-title mono">AI Engineer &amp; Machine Learning Specialist</p>
         <div class="hero-actions">
           <a href="#projects" class="btn btn-primary">Explore My Work</a>
           <a href="#contact" class="btn btn-secondary">Let's Connect</a>
@@ -307,7 +307,7 @@ footer{padding:32px 0; text-align:center; color:var(--slate-dim); font-size:13.5
       </div>
     </div>
   </section>
-
+ 
   <!-- ABOUT -->
   <section id="about">
     <div class="wrap">
@@ -317,7 +317,7 @@ footer{padding:32px 0; text-align:center; color:var(--slate-dim); font-size:13.5
       </div>
       <div class="about-grid reveal">
         <div class="about-bio">
-          <p>I am an Artificial Intelligence Engineer and Software Developer with a solid academic foundation in AI from Minya National University and practical expertise gained through the DEPI Machine Learning track. I specialize in bridging the gap between complex backend logic, machine learning models, and clean user interfaces. From system analysis to final deployment, I focus on creating data-driven, scalable software solutions that solve real-world problems.</p>
+          <p>I am an Artificial Intelligence Engineer and Machine Learning Specialist with a solid academic foundation in AI from Minya National University and practical expertise gained through the DEPI Machine Learning track. I specialize in bridging the gap between complex machine learning models, backend logic, and clean user interfaces. From system analysis to final deployment, I focus on creating data-driven, scalable AI solutions that solve real-world problems.</p>
         </div>
         <div class="profile-card glass">
           <div class="profile-head">
@@ -330,7 +330,7 @@ footer{padding:32px 0; text-align:center; color:var(--slate-dim); font-size:13.5
           </div>
           <div class="profile-row">
             <span class="profile-label">FOCUS</span>
-            <span class="profile-value">Software Dev, ML, System Analysis</span>
+            <span class="profile-value">Machine Learning, AI, System Analysis</span>
           </div>
           <div class="profile-row">
             <span class="profile-label">STATUS</span>
@@ -340,7 +340,7 @@ footer{padding:32px 0; text-align:center; color:var(--slate-dim); font-size:13.5
       </div>
     </div>
   </section>
-
+ 
   <!-- SKILLS -->
   <section id="skills">
     <div class="wrap">
@@ -351,81 +351,98 @@ footer{padding:32px 0; text-align:center; color:var(--slate-dim); font-size:13.5
       </div>
       <div class="reveal">
         <div class="filter-bar" id="filterBar">
-          <button class="filter-btn active" data-filter="all">All</button>
-          <button class="filter-btn" data-filter="lang">Languages</button>
+          <button class="filter-btn active" data-filter="lang">Languages</button>
           <button class="filter-btn" data-filter="web">Web Development</button>
-          <button class="filter-btn" data-filter="pda">Python &amp; Data Analysis</button>
-          <button class="filter-btn" data-filter="ml">Machine Learning &amp; AI</button>
-          <button class="filter-btn" data-filter="nlp">NLP &amp; Generative AI</button>
-          <button class="filter-btn" data-filter="sys">System Design &amp; Tools</button>
-          <button class="filter-btn" data-filter="soft">Soft Skills</button>
+          <button class="filter-btn" data-filter="py">Python</button>
+          <button class="filter-btn" data-filter="ml">Machine Learning</button>
+          <button class="filter-btn" data-filter="dl">Deep Learning</button>
+          <button class="filter-btn" data-filter="nlp">Natural Language Processing (NLP)</button>
+          <button class="filter-btn" data-filter="cv">Computer Vision</button>
+          <button class="filter-btn" data-filter="mlops">Cloud ML &amp; MLOps</button>
         </div>
         <div class="skills-grid" id="skillsGrid">
           <!-- Languages -->
           <div class="skill-card" data-cat="lang"><span>Python</span></div>
           <div class="skill-card" data-cat="lang"><span>C++</span></div>
-          <div class="skill-card" data-cat="lang"><span>Java</span></div>
           <div class="skill-card" data-cat="lang"><span>C#</span></div>
+          <div class="skill-card" data-cat="lang"><span>Java</span></div>
           <div class="skill-card" data-cat="lang"><span>SQL</span></div>
           <div class="skill-card" data-cat="lang"><span>JavaScript</span></div>
           <div class="skill-card" data-cat="lang"><span>HTML</span></div>
           <div class="skill-card" data-cat="lang"><span>CSS</span></div>
           <!-- Web Development -->
-          <div class="skill-card" data-cat="web"><span>HTML</span></div>
-          <div class="skill-card" data-cat="web"><span>CSS</span></div>
-          <div class="skill-card" data-cat="web"><span>JavaScript</span></div>
-          <div class="skill-card" data-cat="web"><span>Python</span></div>
-          <!-- Python & Data Analysis -->
-          <div class="skill-card" data-cat="pda"><span>Python</span></div>
-          <div class="skill-card" data-cat="pda"><span>Pandas</span></div>
-          <div class="skill-card" data-cat="pda"><span>NumPy</span></div>
-          <div class="skill-card" data-cat="pda"><span>Matplotlib</span></div>
-          <div class="skill-card" data-cat="pda"><span>Seaborn</span></div>
-          <div class="skill-card" data-cat="pda"><span>Data Cleaning</span></div>
-          <div class="skill-card" data-cat="pda"><span>Data Processing</span></div>
-          <div class="skill-card" data-cat="pda"><span>Data Visualization</span></div>
-          <div class="skill-card" data-cat="pda"><span>Exploratory Data Analysis</span></div>
-          <div class="skill-card" data-cat="pda"><span>Data Analysis</span></div>
-          <!-- Machine Learning & AI -->
-          <div class="skill-card" data-cat="ml"><span>Artificial Intelligence</span></div>
-          <div class="skill-card" data-cat="ml"><span>Machine Learning</span></div>
-          <div class="skill-card" data-cat="ml"><span>Supervised Learning</span></div>
-          <div class="skill-card" data-cat="ml"><span>Unsupervised Learning</span></div>
-          <div class="skill-card" data-cat="ml"><span>Regression</span></div>
-          <div class="skill-card" data-cat="ml"><span>Classification</span></div>
-          <div class="skill-card" data-cat="ml"><span>Clustering</span></div>
-          <div class="skill-card" data-cat="ml"><span>Feature Engineering</span></div>
-          <div class="skill-card" data-cat="ml"><span>Model Evaluation</span></div>
-          <div class="skill-card" data-cat="ml"><span>Scikit-learn</span></div>
-          <!-- NLP & Generative AI -->
-          <div class="skill-card" data-cat="nlp"><span>Text Processing</span></div>
-          <div class="skill-card" data-cat="nlp"><span>OCR</span></div>
-          <div class="skill-card" data-cat="nlp"><span>RAG</span></div>
-          <div class="skill-card" data-cat="nlp"><span>Fine-Tuning</span></div>
-          <div class="skill-card" data-cat="nlp"><span>Prompt Engineering</span></div>
-          <div class="skill-card" data-cat="nlp"><span>Embeddings</span></div>
-          <div class="skill-card" data-cat="nlp"><span>Vector Search</span></div>
-          <div class="skill-card" data-cat="nlp"><span>FAISS</span></div>
-          <div class="skill-card" data-cat="nlp"><span>LLM Applications</span></div>
-          <!-- System Design & Tools -->
-          <div class="skill-card" data-cat="sys"><span>System Analysis</span></div>
-          <div class="skill-card" data-cat="sys"><span>ERD</span></div>
-          <div class="skill-card" data-cat="sys"><span>Database Schema Design</span></div>
-          <div class="skill-card" data-cat="sys"><span>Canva</span></div>
-          <!-- Soft Skills -->
-          <div class="skill-card" data-cat="soft"><span>Problem Solving</span></div>
-          <div class="skill-card" data-cat="soft"><span>Analytical Thinking</span></div>
-          <div class="skill-card" data-cat="soft"><span>Attention to Detail</span></div>
-          <div class="skill-card" data-cat="soft"><span>Communication</span></div>
-          <div class="skill-card" data-cat="soft"><span>Continuous Learning</span></div>
-          <div class="skill-card" data-cat="soft"><span>Teamwork</span></div>
-          <div class="skill-card" data-cat="soft"><span>Adaptability</span></div>
-          <div class="skill-card" data-cat="soft"><span>Time Management</span></div>
+          <div class="skill-card" data-cat="web" style="display:none;"><span>HTML</span></div>
+          <div class="skill-card" data-cat="web" style="display:none;"><span>CSS</span></div>
+          <div class="skill-card" data-cat="web" style="display:none;"><span>JavaScript</span></div>
+          <div class="skill-card" data-cat="web" style="display:none;"><span>Python</span></div>
+          <!-- Python -->
+          <div class="skill-card" data-cat="py" style="display:none;"><span>Python</span></div>
+          <div class="skill-card" data-cat="py" style="display:none;"><span>Pandas</span></div>
+          <div class="skill-card" data-cat="py" style="display:none;"><span>NumPy</span></div>
+          <div class="skill-card" data-cat="py" style="display:none;"><span>Matplotlib</span></div>
+          <div class="skill-card" data-cat="py" style="display:none;"><span>Data Cleaning</span></div>
+          <!-- Machine Learning -->
+          <div class="skill-card" data-cat="ml" style="display:none;"><span>Data Preprocessing</span></div>
+          <div class="skill-card" data-cat="ml" style="display:none;"><span>Feature Engineering</span></div>
+          <div class="skill-card" data-cat="ml" style="display:none;"><span>Data Encoding</span></div>
+          <div class="skill-card" data-cat="ml" style="display:none;"><span>Feature Scaling</span></div>
+          <div class="skill-card" data-cat="ml" style="display:none;"><span>Dimensionality Reduction</span></div>
+          <div class="skill-card" data-cat="ml" style="display:none;"><span>Linear &amp; Polynomial Regression</span></div>
+          <div class="skill-card" data-cat="ml" style="display:none;"><span>Logistic Regression</span></div>
+          <div class="skill-card" data-cat="ml" style="display:none;"><span>Decision Trees</span></div>
+          <div class="skill-card" data-cat="ml" style="display:none;"><span>Naive Bayes</span></div>
+          <div class="skill-card" data-cat="ml" style="display:none;"><span>KNN</span></div>
+          <div class="skill-card" data-cat="ml" style="display:none;"><span>SVM</span></div>
+          <div class="skill-card" data-cat="ml" style="display:none;"><span>Bagging</span></div>
+          <div class="skill-card" data-cat="ml" style="display:none;"><span>Boosting</span></div>
+          <div class="skill-card" data-cat="ml" style="display:none;"><span>K-Means</span></div>
+          <div class="skill-card" data-cat="ml" style="display:none;"><span>DBSCAN</span></div>
+          <div class="skill-card" data-cat="ml" style="display:none;"><span>Model Evaluation &amp; Overfitting Analysis</span></div>
+          <!-- Deep Learning -->
+          <div class="skill-card" data-cat="dl" style="display:none;"><span>TensorFlow</span></div>
+          <div class="skill-card" data-cat="dl" style="display:none;"><span>ANN</span></div>
+          <div class="skill-card" data-cat="dl" style="display:none;"><span>FNN</span></div>
+          <div class="skill-card" data-cat="dl" style="display:none;"><span>MLP</span></div>
+          <div class="skill-card" data-cat="dl" style="display:none;"><span>DNN</span></div>
+          <div class="skill-card" data-cat="dl" style="display:none;"><span>Backpropagation</span></div>
+          <div class="skill-card" data-cat="dl" style="display:none;"><span>Gradient Descent</span></div>
+          <div class="skill-card" data-cat="dl" style="display:none;"><span>Regularization</span></div>
+          <div class="skill-card" data-cat="dl" style="display:none;"><span>Hyperparameter Tuning</span></div>
+          <div class="skill-card" data-cat="dl" style="display:none;"><span>Early Stopping</span></div>
+          <div class="skill-card" data-cat="dl" style="display:none;"><span>Transfer Learning</span></div>
+          <!-- Natural Language Processing (NLP) -->
+          <div class="skill-card" data-cat="nlp" style="display:none;"><span>NLP Pipeline</span></div>
+          <div class="skill-card" data-cat="nlp" style="display:none;"><span>RegEx</span></div>
+          <div class="skill-card" data-cat="nlp" style="display:none;"><span>Tokenization</span></div>
+          <div class="skill-card" data-cat="nlp" style="display:none;"><span>Stemming</span></div>
+          <div class="skill-card" data-cat="nlp" style="display:none;"><span>Lemmatization</span></div>
+          <div class="skill-card" data-cat="nlp" style="display:none;"><span>TF-IDF</span></div>
+          <div class="skill-card" data-cat="nlp" style="display:none;"><span>Word Embeddings (Word2Vec)</span></div>
+          <div class="skill-card" data-cat="nlp" style="display:none;"><span>RNNs</span></div>
+          <div class="skill-card" data-cat="nlp" style="display:none;"><span>LSTMs</span></div>
+          <div class="skill-card" data-cat="nlp" style="display:none;"><span>Transformers</span></div>
+          <div class="skill-card" data-cat="nlp" style="display:none;"><span>Attention Mechanisms</span></div>
+          <div class="skill-card" data-cat="nlp" style="display:none;"><span>BLEU Score</span></div>
+          <!-- Computer Vision -->
+          <div class="skill-card" data-cat="cv" style="display:none;"><span>Image Processing</span></div>
+          <div class="skill-card" data-cat="cv" style="display:none;"><span>Color Spaces</span></div>
+          <div class="skill-card" data-cat="cv" style="display:none;"><span>Histogram Equalization</span></div>
+          <div class="skill-card" data-cat="cv" style="display:none;"><span>Noise Filtering</span></div>
+          <div class="skill-card" data-cat="cv" style="display:none;"><span>CNNs</span></div>
+          <div class="skill-card" data-cat="cv" style="display:none;"><span>Transfer Learning</span></div>
+          <div class="skill-card" data-cat="cv" style="display:none;"><span>Object Detection (R-CNN, YOLO)</span></div>
+          <!-- Cloud ML &amp; MLOps -->
+          <div class="skill-card" data-cat="mlops" style="display:none;"><span>Microsoft Azure for ML</span></div>
+          <div class="skill-card" data-cat="mlops" style="display:none;"><span>Azure Machine Learning Studio</span></div>
+          <div class="skill-card" data-cat="mlops" style="display:none;"><span>MLflow</span></div>
+          <div class="skill-card" data-cat="mlops" style="display:none;"><span>Experiment Tracking</span></div>
+          <div class="skill-card" data-cat="mlops" style="display:none;"><span>Model Registry</span></div>
+          <div class="skill-card" data-cat="mlops" style="display:none;"><span>ML Pipelines</span></div>
         </div>
       </div>
     </div>
   </section>
-
+ 
   <!-- SERVICES -->
   <section id="services">
     <div class="wrap">
@@ -452,7 +469,7 @@ footer{padding:32px 0; text-align:center; color:var(--slate-dim); font-size:13.5
       </div>
     </div>
   </section>
-
+ 
   <!-- PROJECTS -->
   <section id="projects">
     <div class="wrap">
@@ -461,7 +478,7 @@ footer{padding:32px 0; text-align:center; color:var(--slate-dim); font-size:13.5
         <h2 class="section-title">Systems built from the ground up</h2>
       </div>
       <div class="projects-list reveal">
-
+ 
         <div class="glow-card project-card">
           <span class="project-tag mono">SFDMS</span>
           <h3>FoodBridge</h3>
@@ -474,7 +491,7 @@ footer{padding:32px 0; text-align:center; color:var(--slate-dim); font-size:13.5
             <div class="pipe-node"><div class="pipe-dot">03</div><span class="pipe-label">Database Schema</span></div>
           </div>
         </div>
-
+ 
         <div class="glow-card project-card">
           <span class="project-tag mono">Emergency Systems</span>
           <h3>Lifeline QR</h3>
@@ -485,7 +502,7 @@ footer{padding:32px 0; text-align:center; color:var(--slate-dim); font-size:13.5
             <div class="pipe-node"><div class="pipe-dot">02</div><span class="pipe-label">Critical System Processes</span></div>
           </div>
         </div>
-
+ 
         <div class="glow-card project-card">
           <span class="project-tag mono">Healthcare Platform</span>
           <h3>Dr Sallahny</h3>
@@ -498,11 +515,11 @@ footer{padding:32px 0; text-align:center; color:var(--slate-dim); font-size:13.5
             <div class="pipe-node"><div class="pipe-dot">03</div><span class="pipe-label">Database Architecture</span></div>
           </div>
         </div>
-
+ 
       </div>
     </div>
   </section>
-
+ 
   <!-- WHY ME -->
   <section id="whyme">
     <div class="wrap">
@@ -529,7 +546,7 @@ footer{padding:32px 0; text-align:center; color:var(--slate-dim); font-size:13.5
       </div>
     </div>
   </section>
-
+ 
   <!-- FEEDBACK -->
   <section id="feedback">
     <div class="wrap">
@@ -557,7 +574,7 @@ footer{padding:32px 0; text-align:center; color:var(--slate-dim); font-size:13.5
       </div>
     </div>
   </section>
-
+ 
   <!-- CONTACT -->
   <section id="contact">
     <div class="wrap contact-grid">
@@ -579,8 +596,9 @@ footer{padding:32px 0; text-align:center; color:var(--slate-dim); font-size:13.5
           </a>
         </div>
       </div>
-
-        <form action="https://formspree.io/f/mzebjvpv" method="POST" class="glass contact-form reveal">        <div class="form-row">
+ 
+      <form class="glass contact-form reveal" id="contactForm">
+        <div class="form-row">
           <label for="cf-name">Name</label>
           <input type="text" id="cf-name" name="name" placeholder="Your full name" required>
         </div>
@@ -593,20 +611,20 @@ footer{padding:32px 0; text-align:center; color:var(--slate-dim); font-size:13.5
           <textarea id="cf-message" name="message" placeholder="Tell me a bit about your project..." required></textarea>
         </div>
         <button type="submit" class="btn btn-primary form-submit">Send Message</button>
-        <p class="form-note" id="formNote"></p>
+        <p class="form-note" id="formNote">Thanks — your message is ready. Since this page runs locally, please also email me directly at ziadkhairy51@gmail.com.</p>
       </form>
     </div>
   </section>
-
+ 
 </main>
-
+ 
 <footer>
-  <div class="wrap">Ziad Mohamed Khairy — AI Engineer &amp; Software Developer</div>
+  <div class="wrap">Ziad Mohamed Khairy — AI Engineer &amp; Machine Learning Specialist</div>
 </footer>
-
+ 
 <script>
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
+ 
   // prominent animated neural-network background
   (function(){
     const canvas = document.getElementById('neuralBg');
@@ -655,7 +673,7 @@ footer{padding:32px 0; text-align:center; color:var(--slate-dim); font-size:13.5
     }
     draw();
   })();
-
+ 
   // global click burst effect
   (function(){
     const layer = document.getElementById('clickFxLayer');
@@ -666,7 +684,7 @@ footer{padding:32px 0; text-align:center; color:var(--slate-dim); font-size:13.5
       ring.style.top = e.clientY + 'px';
       layer.appendChild(ring);
       setTimeout(() => ring.remove(), 620);
-
+ 
       if(!reduceMotion){
         const count = 6;
         for(let i = 0; i < count; i++){
@@ -684,19 +702,19 @@ footer{padding:32px 0; text-align:center; color:var(--slate-dim); font-size:13.5
       }
     });
   })();
-
+ 
   // mobile nav
   const navToggle = document.getElementById('navToggle');
   const navLinks = document.getElementById('navLinks');
   navToggle.addEventListener('click', () => navLinks.classList.toggle('open'));
   navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
-
+ 
   // scroll reveal
   const io = new IntersectionObserver((entries) => {
     entries.forEach(entry => { if(entry.isIntersecting){ entry.target.classList.add('in'); io.unobserve(entry.target); } });
   }, { threshold: 0.12 });
   document.querySelectorAll('.reveal').forEach(el => io.observe(el));
-
+ 
   // typing effect
   const phrases = ["Building the future of the web through intelligent algorithms and data-driven systems."];
   const typeTarget = document.getElementById('typeTarget');
@@ -715,7 +733,7 @@ footer{padding:32px 0; text-align:center; color:var(--slate-dim); font-size:13.5
     setTimeout(typeLoop, deleting ? 22 : 38);
   }
   typeLoop();
-
+ 
   // skills filter
   const filterBtns = document.querySelectorAll('.filter-btn');
   const skillCards = document.querySelectorAll('.skill-card');
@@ -725,11 +743,11 @@ footer{padding:32px 0; text-align:center; color:var(--slate-dim); font-size:13.5
       btn.classList.add('active');
       const f = btn.dataset.filter;
       skillCards.forEach(card => {
-        card.style.display = (f === 'all' || card.dataset.cat === f) ? 'block' : 'none';
+        card.style.display = (card.dataset.cat === f) ? 'block' : 'none';
       });
     });
   });
-
+ 
   // ripple effect on interactive elements
   document.querySelectorAll('.btn, .glow-card, .contact-link-card, .skill-card, .filter-btn').forEach(el => {
     el.addEventListener('click', function(e){
@@ -745,7 +763,7 @@ footer{padding:32px 0; text-align:center; color:var(--slate-dim); font-size:13.5
       setTimeout(() => ripple.remove(), 650);
     });
   });
-
+ 
   // contact form (client-side only, no backend)
   const contactForm = document.getElementById('contactForm');
   const formNote = document.getElementById('formNote');
@@ -754,6 +772,6 @@ footer{padding:32px 0; text-align:center; color:var(--slate-dim); font-size:13.5
     formNote.classList.add('show');
   });
 </script>
-
+ 
 </body>
 </html>
